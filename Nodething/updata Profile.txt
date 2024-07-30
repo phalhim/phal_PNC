@@ -1,0 +1,14 @@
++ end-point:{{url}}/updataProfile/{id}
++ method:put
++ request:
+{
+	"username": "KaKa",
+	"email": "kaka@.com",
+	"phoneNumber": "+229395813"
+}
++response:
+{
+    "success":true,
+    "data":true,
+    "message":"user updata successfully",
+}

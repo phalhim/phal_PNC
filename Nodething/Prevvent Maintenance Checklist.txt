@@ -1,0 +1,14 @@
++ end-point:{{url}}/checkilst/show/{id}
++ method:get
++ request:
+{
+"success":true,
+"data":[
+{
+	"id": 1
+	"date": "19-March-2022",
+	"station_name": "TOTAL Samikkl",
+	"status":"pending"
+}
+]
+}

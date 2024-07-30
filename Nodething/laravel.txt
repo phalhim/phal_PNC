@@ -1,0 +1,90 @@
++ end-point:{{url}}/register/list
++ method:get
++ request:[
+"sucess":true,
+"data":[
+{
+	"id":1
+	"fist_Name": "KaKa",
+	"last_Name": "JoJo",
+	"email": "kaka@.com",
+	"phone": "+229395813"
+}
++response:
+{
+    "success":true,
+    "data":true,
+    "message":"user register successfully",
+}
+
+]
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=======================================================================
++ end-point:{{url}}/register/create
++ method:post
++ request:
+{
+	"Fist Name": "KaKa",
+	"Last Name": "JoJo",
+	"Email": "kaka@.com",
+	"Phone": "+229395813",
+	"username":"KaJo",
+	"gender":"M",
+}
++response:
+{
+    "success":true,
+    "data":true,
+    "message":"user create successfully",
+}
+=====================================================================================
++ end-point:{{url}}/register/delete
++ method:delete
++ request:
+{
+	"Fist Name": "KaKa",
+	"Last Name": "JoJo",
+	"Email": "kaka@.com",
+	"Phone": "+229395813",
+	"username":"KaJo",
+	"gender":"M",
+}
++response:
+{
+    "success":true,
+    "data":true,
+    "message":"user delete successfully",
+}
+==========================================================================
++ end-point:{{url}}/register/updata
++ method:put
++ request:
+{
+	"Fist Name": "KaKa",
+	"Last Name": "JoJo",
+	"Email": "kaka@.com",
+	"Phone": "+229395813",
+	"username":"KaJo",
+	"gender":"M",
+}
++response:
+{
+    "success":true,
+    "data":true,
+    "message":"user updata successfully",
+}
+
